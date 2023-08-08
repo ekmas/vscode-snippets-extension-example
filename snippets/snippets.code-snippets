@@ -1,0 +1,17 @@
+{
+  "cl": {
+    "prefix": "cl",
+    "body": ["console.log()"],
+    "description": "console.log"
+  },
+  "cc": {
+    "prefix": "cc",
+    "body": ["console.clear()"],
+    "description": "console.clear"
+  },
+  "cd": {
+    "prefix": "cd",
+    "body": ["console.debug()"],
+    "description": "console.debug"
+  }
+}

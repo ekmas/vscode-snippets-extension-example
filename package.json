@@ -1,0 +1,35 @@
+{
+  "name": "vscode-snippets-example",
+  "displayName": "vscode-snippets-example",
+  "description": "VSCode snippets extension example for medium post I wrote",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "ekmas",
+  "icon": "icons/logo.png",
+  "author": {
+    "name": "Samuel Breznjak",
+    "email": "samuelbreznjak35@gmail.com",
+    "url": "https://github.com/ekmas"
+  },
+  "repository": {
+    "url": "https://github.com/ekmas/vscode-snippets-extension-example",
+    "type": "git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
